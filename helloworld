@@ -1,1 +1,10 @@
-echo hello-world 
+pipeline{
+  agant any
+  stages{
+    stage('Stage 1){
+          steps{
+            echo 'Hello world!'
+          }
+    }
+  }  
+}    
